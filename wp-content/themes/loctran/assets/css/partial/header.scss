@@ -1,0 +1,76 @@
+.top-header {
+	padding: 10px;
+	width: 100vl;
+	background-color: $b;
+	&_contact-list, &_support {
+		display: flex;
+		flex-flow: row;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		li {
+			margin-right: 20px;
+			a {
+				color: $w;
+				text-decoration: none;
+				&:hover {
+					color: $rp;
+				}
+			}
+		}
+	}
+}
+
+.logo {
+	width: 100vl;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	a {
+		img {
+			width: 127px;
+			height: 47px;
+		}
+	}
+}
+
+.menu {
+	.container {
+		margin-top: 50px;
+		background-color: $w;
+	}
+}
+
+.primary-menu ul li  {
+	a {
+		color: $b;
+		border-top: none;
+		border-left: none;
+		background: $w !important;
+		padding: 1em !important;
+		&:hover {
+			color: $or;
+		};
+	}
+	ul li a {
+		border-bottom: 1px $gr solid !important;
+		padding-right: 2em !important;
+		&:after {
+			content: '';
+			position: relative !important;
+			border-top-color: black !important;
+			right: -0.5em !important;
+			top: 0.25em !important;
+			display: inline-block;
+
+		}
+	}
+}
+		
+
+
+.hero {
+	display: flex;
+	justify-content: center; 
+	hight: 353px;
+}
